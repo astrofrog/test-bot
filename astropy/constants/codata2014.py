@@ -103,3 +103,5 @@ e_emu = EMCODATA2014(e.abbrev, e.name, e.value / 10, 'abC',
 
 e_gauss = EMCODATA2014(e.abbrev, e.name, e.value * c.value * 10.0,
                        'Fr', e.uncertainty * c.value * 10.0, system='gauss')
+
+print("SOME NONSENSE!")
